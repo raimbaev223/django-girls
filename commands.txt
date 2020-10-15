@@ -1,0 +1,19 @@
+pip3 install django - установка джанго
+
+django-admin startproject mysite - создание нового пректа
+
+python3 manage.py migrate - миграция базы данных
+
+python3 manage.py runserver - запуск сервера по умолчанию порт 8000
+
+python3 manage.py runserver 5000 - запуск сервера на другом порту
+
+python3 manage.py startapp blog - создание нового приложения
+
+python3 manage.py makemigrations - создание миграции для бд приложения
+
+python3 manage.py migrate - миграция базы данных
+
+python manage.py createsuperuser - создание супер пользователя для сайта
+
+python manage.py shell - консоль джанго
